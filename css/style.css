@@ -437,10 +437,8 @@ footer {
     .activity-card h3 {
         flex-wrap: wrap;
         height: 20px;
-        width: 90%;
+        width: fit-content;
         font-size: 13px;
-        vertical-align: middle;
-        text-overflow: ellipsis;
     }
 
     .activities-title {
@@ -450,9 +448,53 @@ footer {
         padding: 0px 30px;
     }
 
+
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        height: 100%;
+        width: 100%;
+        padding: 0 0px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    header {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0% 10% 0%;
+    }
+
+    #logo-booki {
+        width: 80px;
+    }
+
+    #nav-bar {
+        width: 100%;
+    }
+
+    #nav-bar a {
+        width: 50%;
+        border-bottom: 2px solid #DADADA;
+    }
+
+    #nav-bar a:hover {
+        border-top: none;
+        padding-top: 30px;
+        border-bottom: 2px solid #0065FC;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
     /* ... */
 }
