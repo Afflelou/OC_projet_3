@@ -496,5 +496,34 @@ footer {
         justify-content: center;
     }
 
+    .hebergements-list {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        padding-top: 20px;
+        padding-inline: 30px;
+    }
+
+    .populaires {
+        width: 100%;
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        padding: 2% 5%;
+        order: -1;
+    }
+
+    .populaires-cards {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    #activities {
+        width: 100%;
+    }
+
     /* ... */
 }
