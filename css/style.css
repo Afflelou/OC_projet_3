@@ -490,6 +490,10 @@ footer {
         border-bottom: 2px solid #0065FC;
     }
 
+    .filters-types {
+        width: 45%;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
         width: 100%;
@@ -500,15 +504,21 @@ footer {
         width: 100%;
         background-color: #FFFFFF;
         border-radius: 15px;
-        padding-top: 20px;
-        padding-inline: 30px;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .hebergements-cards {
+        width: 100%;
+        margin: 15px 0px;
+        border-radius: 0px;
     }
 
     .populaires {
         width: 100%;
         background-color: #F2F2F2;
         border-radius: 0px;
-        padding: 2% 5%;
+        padding: 0%;
         order: -1;
     }
 
@@ -523,6 +533,19 @@ footer {
 
     #activities {
         width: 100%;
+    }
+
+    .activities-cards a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .activity-img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px 15px 0px 0px;
     }
 
     /* ... */
