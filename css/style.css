@@ -463,7 +463,7 @@ footer {
     }
 
     .section-title {
-        font-size: 25px;
+        font-size: 22px;
         padding-left: 2%;
     }
 
@@ -487,6 +487,7 @@ footer {
     #nav-bar a {
         width: 50%;
         border-bottom: 2px solid #DADADA;
+        text-align: center;
     }
 
     #nav-bar a:hover {
