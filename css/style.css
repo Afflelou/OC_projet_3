@@ -655,10 +655,17 @@ footer {
 
     .show-more {
         margin-left: 5%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #activities {
         width: 100%;
+    }
+
+    .activities-title h2 {
+        margin-top: 0px;
+        margin-bottom: 8%;
     }
 
     .activities-cards {
