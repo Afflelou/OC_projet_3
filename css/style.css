@@ -101,6 +101,11 @@ header {
     padding: 10px;
 }
 
+#search-input::placeholder {
+    color: #000;
+    opacity: 1;
+}
+
 #search-button {
     position: relative;
     color: #ffffff;
@@ -218,13 +223,6 @@ header {
     gap: 3%;
     margin-bottom: 50px;
 }
-
-/* .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;
-} */
 
 /****** Hebergements ***********/
 .hebergements-list {
@@ -441,9 +439,10 @@ footer {
 
     .activity-card h3 {
         flex-wrap: wrap;
-        height: 20px;
+        height: 25px;
         width: fit-content;
-        font-size: 13px;
+        font-size: 14px;
+        margin-right: 10px;
     }
 
     .activities-title {
